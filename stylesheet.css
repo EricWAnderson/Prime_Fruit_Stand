@@ -1,0 +1,122 @@
+body {
+  font-family: "Comic Sans MS", sans-serif;
+  background-color: #66ccff;
+}
+header {
+  font-size: 30px;
+  text-align: center;
+  margin: 15px;
+}
+.flazer-team {
+  transform: skewX(-20deg);
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+ /* text-shadow: 5px 5px black;*/
+
+}
+.wow {
+  text-decoration: underline;
+  font-family: "Papyrus", serif;
+  font-weight: bold;
+  font-size: 44px;
+}
+#fruit-stand {
+  width: inherit;
+  margin: 0 auto;
+}
+.apple-stand, .orange-stand, .banana-stand, .pear-stand {
+  height: 150px;
+  width: 150px;
+
+  border: 10px solid #663300;
+  border-bottom: 100px solid #663300;
+  display: inline-block;
+
+  margin-left: 170px;
+  margin-bottom: 50px;
+  background-color: #ccffff;
+  text-align: center;
+  padding-top: 15px;
+  font: 18px/20px;
+}
+.buy, .sell {
+  background-color: #663300;
+  color: white;
+  border: 1px solid black;
+  font: 16px/18px "Comic Sans MS", sans-serif;
+  width: 100px;
+  margin-bottom: 3px;
+}
+
+
+
+.apple-stand, .orange-stand, .banana-stand, .pear-stand p {
+  
+}
+img {
+  margin-left: 15%;
+}
+.apple-stand:hover, .orange-stand:hover, .banana-stand:hover, .pear-stand:hover {
+  
+}
+.user-interface {
+  border: 3px solid #663300;
+  border-radius: 5px;
+  clear: both;
+}
+.user-interface p {
+    display: block;
+    margin-left: 15px;
+}
+.user-totalCash {
+  font-size: 20px;
+}
+.apples, .oranges, .bananas, .pears {
+  display: inline-block;
+}
+.timer {
+  margin-top: 20px;
+  clear: both;
+}
+/*
+.apples {
+  margin-left: 35%;
+}*/
+h1 {
+  text-align: center;
+}
+h2 {
+  display: block;
+  text-align: center;
+  margin-left: 15px;
+}
+.apples h2 {
+  color: red;
+}
+.oranges h2 {
+  color: orange;
+}
+.bananas h2 {
+  color: yellow;
+}
+.pears h2 {
+  color: #99ff33;
+}
+.apple, .orange, .banana, .pear {
+  color: white;
+}
+.head {
+  width: 80%;
+  margin: 10px auto;
+}
+.user-fruits {
+  width: inherit;
+  margin: 0 auto;
+  text-align: center;
+}
+p {
+  text-align: center;
+}
